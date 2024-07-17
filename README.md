@@ -1,3 +1,3 @@
 # CS-499-Portfolio
 
-CS CAPTONE
+CS CAPSTONE
