@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/gray_10"
+    tools:context=".UserMainInterface">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grazioso Salvare’s Animal Shelter"
+        android:textColor="@color/magenta_7"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search for Entries"
+        android:textColor="@color/magenta_7"
+        android:textSize="20sp"
+        android:layout_marginLeft="1dp" />
+
+    <SearchView
+        android:id="@+id/searchBar"
+        android:layout_width="378dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/gray_3"
+        android:hint=" Search"
+        android:paddingBottom="20dp"
+        android:textColorHint="@color/gray_10" />
+
+    <Button
+        android:id="@+id/read"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/magenta_7"
+        android:text="View All Shelter Animals" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/magenta_7"
+        android:text="Create New Shelter Animal" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/magenta_7"
+        android:text="Update a Shelter Animal" />
+
+</LinearLayout>

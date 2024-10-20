@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/gray_10"
+    tools:context=".UpdateAnimalActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/GraziosoSalvareLogo" />
+
+    <TextView
+        android:id="@+id/updateGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:text="Update Guest"
+        android:textColor="@color/magenta_7"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="( Leave void if the same )"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/magenta_7"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Update Animal's Name: "
+        android:textColor="@color/magenta_7"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_3"
+        android:hint=" Name"
+        android:inputType="text"
+        android:textColorHint="@color/gray_10" />
+
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Update Animal's Sex (Male or Female): "
+        android:textColor="@color/magenta_7"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/sexEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_3"
+        android:hint=" Sex"
+        android:inputType="text"
+        android:textColorHint="@color/gray_10" />
+
+    <TextView
+        android:id="@+id/breed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Update Animal's Breed: "
+        android:textColor="@color/magenta_7"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/breedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_3"
+        android:hint=" Breed"
+        android:inputType="text"
+        android:textColorHint="@color/gray_10" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Update Animal's Age (Months): "
+        android:textColor="@color/magenta_7"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_3"
+        android:hint=" Age"
+        android:inputType="text"
+        android:textColorHint="@color/gray_10" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Update"
+        android:backgroundTint="@color/magenta_7" />
+
+</LinearLayout>
